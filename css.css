@@ -1,0 +1,54 @@
+<DIV> </DIV><STYLE type=text/css>
+body
+{background:url(页面背景图片) repeat
+scroll!important;}
+.logo
+{background:url(题图logo图片) no
+repeat no scroll!mportant;}
+.banner
+{background:url(题图大图) no
+repeat no scroll!mportant;}
+.menu{
+background:url("题图下的菜单图片") no-
+repeat center;}
+.feeds .up{
+background:url("正文标题栏上翻时的图片") no-
+repeat center;}
+.feeds .down{
+background:url("正文标题栏下翻时的图片") no-
+repeat center;}
+.feeds .function{background:url("正文摘要结尾处菜单的图片") no-
+repeat right;}
+.links .up{
+background:url("面板标题栏上翻时图片");}
+.links .down{
+background:url(面板标题栏下翻时的图片);}
+.links .mid{
+background:url(面板的背景图片);}
+.photo .mid{
+background:url(形象照片处的背景图片);}
+.label .mid{
+background:url(自定义面板的背景图片);}
+.calendar .mid{
+background:url("日历面板背景");}
+.callboard .up{
+background:url("");}
+.callboard .down{
+background:url("");}
+.callboard .mid{
+background:url("公告栏背景图片");}
+.bodyBg{
+background:url("正文背景图片");}
+.bodyBottom{
+background:url("正文背景图片");}
+.gbook .up{
+background:url('留言板标题栏上翻时的图片') no-repeat;}
+.gbook .down{
+background:url('留言板标题栏下翻时的图片') no-repeat;}
+.feeds .page{
+background:url("正文文章页数图片") no-repeat center;}
+</STYLE> 以上代码我都试过，均可用。红色的部分是必须要有的，其他可以任你自己的需要进行选择。如果你只想改背景图片，你就可以输入：<DIV> </DIV><STYLE type=text/css>
+body
+{background:url(页面背景图片) repeat
+scroll!important;}
+</STYLE> 也可以两个或者两个以上一起放进一个空白面板

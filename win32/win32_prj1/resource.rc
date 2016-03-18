@@ -1,0 +1,185 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 233, 139
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "QQ2015"
+MENU IDR_MENU1
+FONT 10, "System"
+BEGIN
+    CONTROL         111,IDCANCEL,"Static",SS_BITMAP,203,7,23,23
+    PUSHBUTTON      "取消",IDC_CANCEL,121,106,47,15
+    EDITTEXT        IDC_EDIT1,56,34,82,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,55,53,83,16,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "在线",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,80,81,25,8
+    CONTROL         "隐身",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,31,81,28,9
+    LTEXT           "弹指间，一心间...QQ2015",IDC_STATIC,14,13,117,17
+    LTEXT           "QQ号：",IDC_STATIC,14,36,39,12
+    LTEXT           "密 码：",IDC_STATIC,13,55,28,11
+    CONTROL         "忙碌",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,136,79,24,
+                    8
+    PUSHBUTTON      "登录",IDC_OK,33,106,41,15
+    COMBOBOX        IDC_COMBO1,189,43,29,43,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "记住密码",IDC_STATIC,149,44,34,11
+    CONTROL         112,IDC_STATIC,"Static",SS_BITMAP,196,97,30,35
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MAIN DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 9, 0
+0xc7bc, 0xa1d7, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xfccd, 0xc7bc, 0xdcc3, 0xebc2, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0xe4c6, 0xfbcb, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建",                        ID_MENUITEM40001
+        MENUITEM "打开",                        ID_MENUITEM40002
+        MENUITEM "退出",                        ID_MENUITEM40003
+        POPUP "保存"
+        BEGIN
+            MENUITEM "保存为",                      ID_MENUITEM40009
+            MENUITEM "另存为",                      ID_MENUITEM40010
+        END
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "复制",                        ID_MENUITEM40005
+        MENUITEM "粘贴",                        ID_MENUITEM40006
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于",                        ID_MENUITEM40007
+        MENUITEM "在线升级",                    ID_MENUITEM40008
+        MENUITEM SEPARATOR
+        MENUITEM "注册",                        ID_MENUITEM40011
+        MENUITEM SEPARATOR
+        POPUP "广告"
+        BEGIN
+            MENUITEM "谷歌",                        ID_MENUITEM40012
+            MENUITEM "呵呵",                        ID_MENUITEM40013
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON    DISCARDABLE     "u=2664432439,2685015694&fm=23&gp=0-img2ico.net.ico"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>New Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="generator" content="EverEdit" />
+	<meta name="author" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="" rel="stylesheet">
+		<style type="text/css" media="screen" id="test">
+			html,body{
+				background-color:#272822;
+			}
+			h2{
+				line-height:10%;
+			}
+			#header{
+				//height:5%;
+				text-align: center;
+				padding-top:5px;
+				padding-bottom:5px;
+				background-color: silver;
+				height:10%;
+				margin-bottom:10px;
+				border:10px solid silver;
+				border-radius:10px;
+			}
+			#leftContent{
+				width:20%;
+				height:500px;
+				background-color: #aaa;
+				float: left;
+				border: 10px solid #aaa;
+				border-radius:10px;
+			}
+			#rightContent{
+				width:72%;
+				height:700px;
+				margin-left:20px;
+				padding-left:10px;
+				background-color:#ddd;
+				vertical-align:top;
+				float: right;
+				border: 10px solid #ddd;
+				border-radius:10px;
+			}
+			
+		</style>
+	<script type="text/javascript" src="jquery_v1.5.2/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			  $("#anchor").click(function(event) {
+				  $("#rightContent").load("1-2.html #rightContent > p");
+				  event.preventDefault();
+			  });
+		      $(function() {
+		          $('a[rel*="external"]').click( function(e) {
+			          window.open(this.href);
+			          e.preventDefault();
+		          });
+		       });
+		  });
+	</script>
+</head>
+<body>
+	<div id="header"><h2>jquery测试网站</h2></div>
+	<div id="clear"></div>
+	<div id="leftContent">
+		
+		<ul>
+			<li><a href="test-demo.html" id="anchor">show it</a></li>
+			<li><a href="http://www.w3school.com.cn/jquery/jquery_install.asp" rel="external">google</a></li>
+		</ul>
+		
+
+	</div>
+	<div id="rightContent"></div>
+</body>
+</html>

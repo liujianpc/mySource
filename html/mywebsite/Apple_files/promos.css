@@ -1,0 +1,601 @@
+.page-home .promos .promo-watch {display: block;}
+
+/* img path*/
+
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .promos .promo-watch {
+        background-size: 639px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_watch_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-watch {
+        background-image: url("http://images.apple.com/cn/home/images/promo_watch_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .promos .promo-watch {
+        background-size: 511px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_watch_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 850px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 850px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 850px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-watch {
+        background-image: url("http://images.apple.com/cn/home/images/promo_watch_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 736px) and (max-device-width: 736px) {
+    .page-home .promos .promo-watch {
+        background-size: 768px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_watch_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 736px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 736px) and (max-device-width: 736px) and (min-resolution: 144dpi), only screen and (max-width: 736px) and (max-device-width: 736px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-watch {
+        background-image: url("http://images.apple.com/cn/home/images/promo_watch_small_2x.jpg")
+    }
+}
+
+.page-home .promos .promo-change {
+    background-repeat: no-repeat
+}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .promos .promo-change {
+        background-size: 639px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_change_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-change {
+        background-image: url("http://images.apple.com/cn/home/images/promo_change_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .promos .promo-change {
+        background-size: 511px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_change_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 850px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 850px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 850px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-change {
+        background-image: url("http://images.apple.com/cn/home/images/promo_change_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 736px) and (max-device-width: 736px) {
+    .page-home .promos .promo-change {
+        background-size: 768px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_change_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 736px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 736px) and (max-device-width: 736px) and (min-resolution: 144dpi), only screen and (max-width: 736px) and (max-device-width: 736px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-change {
+        background-image: url("http://images.apple.com/cn/home/images/promo_change_small_2x.jpg")
+    }
+}
+
+ 
+ /* supplier-responsibility */
+ 
+ .page-home .promos .promo-supplier-responsibility {
+    background-repeat: no-repeat;
+    background-size: 639px 200px;
+    background-image: url("http://images.apple.com/cn/home/images/promo_supplier_responsibility_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-home .promos .promo-supplier-responsibility {
+        background-image: url("http://images.apple.com/cn/home/images/promo_supplier_responsibility_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-home .promos .promo-supplier-responsibility {
+        background-size: 535px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_supplier_responsibility_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-supplier-responsibility {
+        background-image: url("http://images.apple.com/cn/home/images/promo_supplier_responsibility_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-home .promos .promo-supplier-responsibility {
+        background-size: 736px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_supplier_responsibility_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-supplier-responsibility {
+        background-image: url("http://images.apple.com/cn/home/images/promo_supplier_responsibility_small_2x.jpg")
+    }
+}
+
+/* world-gallery */
+
+.page-home .promos .promo-world-gallery {
+    background-repeat: no-repeat;
+    background-size: 639px 200px;
+    background-image: url("http://images.apple.com/cn/home/images/promo_world_gallery_large.jpg")
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-home .promos .promo-world-gallery {
+        background-image: url("http://images.apple.com/cn/home/images/promo_world_gallery_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-home .promos .promo-world-gallery {
+        background-size: 534px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_world_gallery_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-world-gallery {
+        background-image: url("http://images.apple.com/cn/home/images/promo_world_gallery_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 736px) and (max-device-width: 736px) {
+    .page-home .promos .promo-world-gallery {
+        background-size: 736px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_world_gallery_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 736px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 736px) and (max-device-width: 736px) and (min-resolution: 144dpi), only screen and (max-width: 736px) and (max-device-width: 736px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-world-gallery {
+        background-image: url("http://images.apple.com/cn/home/images/promo_world_gallery_small_2x.jpg")
+    }
+}
+
+html.oldie .page-home .promos .promo-world-gallery  {
+    background: url("http://images.apple.com/cn/home/images/promo_world_gallery_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+/* macbookair */
+
+.page-home .promos .promo-macbookair {
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .promos .promo-macbookair {
+        background-size: 640px 200px;
+        height: 200px;
+        width: 640px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_air_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbookair {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_air_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .promos .promo-macbookair {
+        background-size: 534px 200px;
+        height: 200px;
+        width: 534px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_air_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 850px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 850px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 850px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbookair {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_air_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .promos .promo-macbookair {
+        background-size: 736px 200px;
+        height: 200px;
+        width: 736px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_air_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbookair {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_air_small_2x.jpg")
+    }
+}
+
+html.oldie .page-home .promos .promo-macbookair {
+    background: url("http://images.apple.com/cn/home/images/promo_macbook_air_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.page-home .promos .promo-macbookpro {
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .promos .promo-macbookpro {
+        background-size: 640px 200px;
+        height: 200px;
+        width: 640px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_pro_retina_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbookpro {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_pro_retina_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .promos .promo-macbookpro {
+        background-size: 534px 200px;
+        height: 200px;
+        width: 534px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_pro_retina_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 850px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 850px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 850px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbookpro {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_pro_retina_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .promos .promo-macbookpro {
+        background-size: 736px 200px;
+        height: 200px;
+        width: 736px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_pro_retina_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbookpro {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_pro_retina_small_2x.jpg")
+    }
+}
+
+html.oldie .page-home .promos .promo-macbookpro {
+    background: url("http://images.apple.com/cn/home/images/promo_macbook_pro_retina_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-home .promos .promo-blog, .page-home .promos .promo-macbookair,
+.page-home .promos .promo-macbookpro, .page-home .promos .promo-appletv,
+.page-home .promos .promo-researchkit {
+    width: auto;
+    background-position: center center;
+}
+
+.page-home .promos .promo-tile-1-version-1 *, .page-home .promos .promo-tile-1-version-2 * {
+    display: none;
+}
+
+.page-home .promos .promo-tile-1-version-1 .promo-macbookpro, .page-home .promos .promo-tile-1-version-2 .promo-macbookair {
+    display: block;
+}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        background-size: 491px 60px;
+        height: 60px;
+        width: 491px;
+        background-image: url("http://images.apple.com/cn/home/images/the_new_macbook_large.png")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        background-image: url("http://images.apple.com/cn/home/images/the_new_macbook_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        background-size: 435px 53px;
+        height: 53px;
+        width: 435px;
+        background-image: url("http://images.apple.com/cn/home/images/the_new_macbook_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 850px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 850px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 850px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        background-image: url("http://images.apple.com/cn/home/images/the_new_macbook_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        background-size: 271px 33px;
+        height: 33px;
+        width: 271px;
+        background-image: url("http://images.apple.com/cn/home/images/the_new_macbook_small.png")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        background-image: url("http://images.apple.com/cn/home/images/the_new_macbook_small_2x.png")
+    }
+}
+
+html.oldie .page-home .billboard .gallery-content-macbook .copy h1 {
+    background: url("http://images.apple.com/cn/home/images/the_new_macbook_large.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 491px;
+    height: 60px;
+}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 736px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .page-home .billboard .gallery-content-macbook .copy h1 {
+        background-position: center bottom;
+        padding-top: 109px;
+        height: 80px;
+    }
+}
+
+
+/*Make Music*/
+ .page-home .promos .promo-oscars {
+    background-repeat: no-repeat;
+    background-size: 640px 200px;
+    background-image: url("http://images.apple.com/cn/home/images/promo_grammys_large.jpg");
+    outline: 2px solid #fff
+}
+
+@media print, only screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min-resolution: 144dpi), screen and (min-resolution: 144dppx) {
+    .page-home .promos .promo-oscars {
+        background-image: url("http://images.apple.com/cn/home/images/promo_grammys_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-home .promos .promo-oscars {
+        background-size: 534px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_grammys_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1024px) and (min-resolution: 144dpi), only screen and (max-width: 1024px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-oscars {
+        background-image: url("http://images.apple.com/cn/home/images/promo_grammys_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .page-home .promos .promo-oscars {
+        background-size: 736px 200px;
+        background-image: url("http://images.apple.com/cn/home/images/promo_grammys_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 768px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-oscars {
+        background-image: url("http://images.apple.com/cn/home/images/promo_grammys_small_2x.jpg")
+    }
+}
+/*Make Music End*/
+
+
+/* researchkit */
+
+.page-home .promos .promo-researchkit {
+    background-repeat: no-repeat
+}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 850px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 850px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 850px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_small.jpg");
+        background-size: 736px 200px;
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_small_2x.jpg")
+    }
+}
+
+@media only screen and (min-width: 736px) {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_medium.jpg");
+        background-size: 534px 200px;
+    }
+}
+
+@media only screen and (min-width: 736px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 736px) and (min-resolution: 144dpi), only screen and (min-width: 736px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-researchkit {
+        background-image: url("http://images.apple.com/cn/home/images/promo_researchkit_medium_2x.jpg");
+    }
+}
+
+html.oldie .page-home .promos .promo-researchkit {
+    background: url("http://images.apple.com/cn/home/images/promo_researchkit_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+/* promo-ipad-changes-everything */
+@media only screen and (min-width: 736px) {
+    .page-home .promos .promo-ipad-changes-everything {
+        background-image: url("http://images.apple.com/cn/home/images/promo_changes_ipad_large.jpg");
+        background-size: 640px 200px;
+        width: 640px;
+        height: 200px
+    }
+}
+
+@media only screen and (min-width: 736px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 736px) and (min-resolution: 144dpi), only screen and (min-width: 736px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-ipad-changes-everything {
+        background-image: url("http://images.apple.com/cn/home/images/promo_changes_ipad_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-home .promos .promo-ipad-changes-everything {
+        background-image: url("http://images.apple.com/cn/home/images/promo_changes_ipad_medium.jpg");
+        background-size: 534px 200px;
+        width: 534px;
+        height: 200px
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-ipad-changes-everything {
+        background-image: url("http://images.apple.com/cn/home/images/promo_changes_ipad_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .promos .promo-ipad-changes-everything {
+        background-image: url("http://images.apple.com/cn/home/images/promo_changes_ipad_small.jpg");
+        background-size: 736px 200px;
+        width: 736px;
+        height: 200px
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-ipad-changes-everything {
+        background-image: url("http://images.apple.com/cn/home/images/promo_changes_ipad_small_2x.jpg")
+    }
+}
+
+html.oldie .page-home .promos .promo-ipad-changes-everything {
+    background: url(http://images.apple.com/cn/home/images/promo_changes_ipad_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+
+/* macbook */
+@media only screen and (min-width: 736px) {
+    .page-home .promos .promo-macbook {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_large.jpg");
+        background-size: 640px 200px;
+        width: 640px;
+        height: 200px
+    }
+}
+
+@media only screen and (min-width: 736px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 736px) and (min-resolution: 144dpi), only screen and (min-width: 736px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbook {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-home .promos .promo-macbook {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_medium.jpg");
+        background-size: 534px 200px;
+        width: 534px;
+        height: 200px
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbook {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .promos .promo-macbook {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_small.jpg");
+        background-size: 736px 200px;
+        width: 736px;
+        height: 200px
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .promos .promo-macbook {
+        background-image: url("http://images.apple.com/cn/home/images/promo_macbook_small_2x.jpg")
+    }
+}
+
+html.oldie .page-home .promos .promo-macbook {
+    background: url(http://images.apple.com/cn/home/images/promo_macbook_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.page-home .promos .promo-blog, .page-home .promos .promo-blog-week-four,
+.page-home .promos .promo-blog-week-five, .page-home .promos .promo-macbookair,
+.page-home .promos .promo-macbookpro, .page-home .promos .promo-appletv,
+.page-home .promos .promo-researchkit, .page-home .promos .promo-world-gallery,
+.page-home .promos .promo-ipad-changes-everything, .page-home .promos .promo-iphone-loved,
+.page-home .promos .promo-macbook, .page-home .promos .promo-guided-tours {
+    width: auto;
+    background-position: center center;
+}
+
+

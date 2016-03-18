@@ -1,0 +1,89 @@
+/*Jupiter*/
+h1, h2, h3, h4, h5{letter-spacing: 1px;}
+html[lang=zh-CN] body{font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "Helvetica","Arial","Verdana","sans-serif";}
+html.oldie[lang=zh-CN] .icon-play {
+    font-family: "PingHei 200", "PingHei", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"
+}
+.page-home .billboard .gallery-content h1{ line-height:1.1; letter-spacing:1px;}
+.icon-apple{ letter-spacing:0px;}
+.space_letterspacing{ letter-spacing: -0.1em;}
+.space_letterspacing1{ letter-spacing: -0.15em;}
+.space_letterspacing2{ letter-spacing: -0.15em;}
+.space_letterspacing3{ letter-spacing: -0.17em;}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .billboard .gallery-content .links {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 850px) {
+    .page-home .billboard .gallery-content .links {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .billboard .gallery-content .links {
+        font-size: 12px;
+    }
+}
+.icon-play:before, .icon-play:after, .icon-more:before,  .icon-more:after {
+    top:-2px;
+}
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .icon-play:before, .icon-play:after, .icon-more:before,  .icon-more:after {
+   		top:-1px;
+	}
+}
+
+
+/* Jupiter end */
+.page-home .billboard .gallery-content-watch.version-two .copy h2 {
+    font-size: 56px;
+    font-weight: 100;
+    margin-bottom: 0.5em;
+    margin-left: 28px;
+}
+.page-home .billboard .gallery-content-watch.version-two .copy .links{
+		margin-left: 22px;
+}
+	
+@media only screen and (max-width: 1068px), only screen and (max-height: 800px) {
+    .page-home .billboard .gallery-content-watch.version-two .copy h2 {
+        font-size: 46px;
+        margin-left: 28px;
+    }
+}
+@media only screen and (max-width: 1068px), only screen and (max-height: 800px) {
+	.page-home .billboard .gallery-content-watch.version-two .copy .links{
+		margin-left: 22px;
+	}
+}
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .billboard .gallery-content-watch.version-two .copy h2 {
+        font-size: 36px;
+        margin-left: 13px;
+    }
+}
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .billboard .gallery-content-watch.version-two .copy .links{
+		margin-left: 10px;
+	}
+}
+
+
+.space_letterspacing{
+	letter-spacing: -0.08em;
+}
+.space_letterspacing4{
+	letter-spacing: -0.05em;
+}
+.space_letterspacing24{
+	letter-spacing: -0.20em;
+}
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+	.space_letterspacing24{
+		letter-spacing: -0.16em;
+	}
+}

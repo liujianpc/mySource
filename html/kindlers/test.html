@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+width:100px;
+height:75px;
+background-color:red;
+border:1px solid black;
+}
+div#div2
+{
+transform:skew(30deg,20deg);
+transition:transform 2s;
+}
+div#div2:hover
+{
+transform:skew(0deg,0deg);
+transition:transform 2s;
+}
+</style>
+</head>
+<body>
+
+<div>Hello. This is a DIV element.</div>
+
+<div id="div2">Hello. This is a DIV element.</div>
+<input type="range" name="test" value="7" max="360" min="-360" onchange="ChangeDeg(this.value)"/>
+<p>Ðý×ª½Ç¶È£º<div id="account"></div></p>
+<script type="text/javascript">
+	function ChangeDeg(value) {
+		document.getElementById("div2").style.transform="rotate("+value+"deg)";
+		document.getElementById("account").innerHTML=value;
+	}
+	
+
+</script>
+
+</body>
+</html>

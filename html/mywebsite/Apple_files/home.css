@@ -1,0 +1,189 @@
+@media only screen and (max-width: 767px) {
+   html.touch .page-home .right {
+        float: none;
+        margin-left: 0;
+        white-space:nowrap;
+    }
+}
+
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 767px) and (min-resolution: 144dpi), only screen and (max-width: 767px) and (min-resolution: 144dppx) {
+    html.touch .page-home .right {
+        float: none;
+        margin-left: 0;
+        white-space:nowrap;
+    }
+}
+
+/*Homepage tile copy center layout*/
+.page-home .billboard .gallery-content-osx h2 { padding-left:17px;}
+
+@media only screen and (max-width: 767px) {
+   .page-home .billboard .gallery-content-osx h2 {
+        padding-left:15px;
+    }
+}
+
+.page-home .billboard .gallery-content-ipad-air h2 { padding-left:17px;}
+
+@media only screen and (max-width: 767px) {
+   .page-home .billboard .gallery-content-ipad-air h2 {
+        padding-left:15px;
+    }
+}
+
+.page-home .billboard .gallery-content-osx .links { padding-left:10px; }
+
+/*BR only-small work*/
+.show-only-for-small {
+    display: none
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {
+    .show-only-for-small {
+        display: block
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .show-for-medium {
+        display: block
+    }
+}
+
+
+.footer-sosumi { width:70%; }
+
+@media only screen and (max-width: 1024px) and (max-device-width: 1024px) {
+    .footer-sosumi {
+        width:100%;
+        *width:60%;
+    }
+}
+
+.show-only-for-small {display: none;}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.show-only-for-small {display: block; }}
+.hide-only-for-large {display: none;}
+@media only screen and (max-width: 1024px) and (max-device-width: 1024px) {.hide-only-for-large {display: block;}}
+.show-only-for-large {display: block}
+@media only screen and (max-width: 1024px) {.show-only-for-large {display: none}}
+.show-only-for-medium {display: none}
+@media only screen and (max-width: 1024px) {.show-only-for-medium {display: block}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {.show-only-for-medium {display: none}}
+
+/*Global Footer for IE 8*/
+html.oldie[lang=zh-CN] #globalfooter{font-family: "Microsoft yahei", "微软雅黑", "Lucida Grande", "Lucida Sans Unicode", "Arial", "Verdana", "sans-serif"\9;}
+.footer-shop, .footer-links, .footer-sosumi {font-size: 12px\9;}
+
+
+/* ie8 icon begin */
+.page-home .billboard .gallery-content-event .copy a span{*padding-bottom:3px;}
+/* ie8 icon end */
+
+
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_large_2x.jpg")
+    }
+}
+
+@media only screen and (min-width: 1441px) and (min-height: 1051px) {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1441px) and (min-height: 1051px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1441px) and (min-height: 1051px) and (min-resolution: 144dpi), only screen and (min-width: 1441px) and (min-height: 1051px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 800px) {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_large.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 800px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 800px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 800px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_large.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_small_2x.jpg")
+    }
+}
+
+html.oldie .page-home .billboard .gallery-content-watch.home-watch-content2 .hero-image {
+    background: url(http://images.apple.com/cn/home/images/watch_large.jpg);
+}
+
+@media only screen and (min-width: 1069px), oldie-query {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-resolution: 144dpi), only screen and (min-width: 1069px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large_2x.jpg")
+    }
+}
+
+@media only screen and (min-width: 1441px) and (min-height: 1051px) {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large.jpg")
+    }
+}
+
+@media only screen and (min-width: 1441px) and (min-height: 1051px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1441px) and (min-height: 1051px) and (min-resolution: 144dpi), only screen and (min-width: 1441px) and (min-height: 1051px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px), only screen and (max-height: 800px) {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-height: 800px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-height: 800px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (min-resolution: 144dppx), only screen and (max-height: 800px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (max-device-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (max-device-width: 735px) and (min-resolution: 144dppx) {
+    .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+        background-image: url("http://images.apple.com/cn/home/images/watch_sport_large_2x.jpg")
+    }
+}
+
+html.oldie .page-home .billboard .gallery-content-watch.home-watch-content3 .hero-image {
+    background: url(http://images.apple.com/cn/home/images/watch_sport_large.jpg);
+}
+
+
+

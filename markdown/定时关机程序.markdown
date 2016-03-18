@@ -1,0 +1,109 @@
+title: C语言定时关机程序
+date: 2015-09-07 22:17:22
+tags: C语言
+---
+	   因为学校到了十一点，准时断电,电脑电池已经不行了，为了防止断电导致工作数据丢失，以及损害BIOS，所以写了一个简单的关机程序。
+
+**MainDlg.cpp代码如下**：
+
+```cpp
+#include "stdafx.h"
+#include <windows.h>
+#include <windowsx.h>
+#include "resource.h"
+#include "MainDlg.h"
+#include "stdlib.h"
+#include "stdio.h"
+#include "time.h"
+#include "string.h"
+
+BOOL WINAPI Main_Proc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
+{
+    switch(uMsg)
+    {
+        HANDLE_MSG(hWnd, WM_INITDIALOG, Main_OnInitDialog);
+        HANDLE_MSG(hWnd, WM_COMMAND, Main_OnCommand);
+		HANDLE_MSG(hWnd,WM_CLOSE, Main_OnClose);
+    }
+
+    return FALSE;
+}
+
+BOOL Main_OnInitDialog(HWND hwnd, HWND hwndFocus, LPARAM lParam)
+{
+    return TRUE;
+}
+
+void Main_OnCommand(HWND hwnd, int id, HWND hwndCtl, UINT codeNotify)
+{
+    switch(id)
+    {
+        case IDC_OK:
+		
+				TCHAR strHOUR[20];
+				TCHAR strMINUTES[20];
+				TCHAR cmd[80] = "shutdown -s -t ";
+
+				GetDlgItemText(hwnd,IDC_HOUR,strHOUR,sizeof(strHOUR));
+				GetDlgItemText(hwnd,IDC_MINUTES,strMINUTES,sizeof(strMINUTES));
+
+				int h = atoi(strHOUR);
+				int m = atoi(strMINUTES);
+
+				time_t nowTime;
+				struct tm *timeinfo;
+				time(&nowTime);
+				timeinfo = localtime(&nowTime);
+
+				int now_H = timeinfo->tm_hour;
+				int now_M = timeinfo->tm_min;
+				int now_S = timeinfo->tm_sec;
+
+				if (now_H <= h)
+				{
+					int sec = (h - now_H)*3600 + (m - now_M) * 60;
+					TCHAR str1[20];
+					itoa(sec,str1,10);
+					system(strcat(cmd,str1));
+
+				}
+
+				else
+				{
+					int sec = (24 + h - now_H)*3600 + (m - now_M) * 60 - now_S;
+					TCHAR str1[20];
+					itoa(sec,str1,10);
+					system(strcat(cmd,str1));
+
+				}
+				TCHAR str2[50]="将在";
+				TCHAR str3[5];
+				itoa(h,str3,10);
+				TCHAR str4[]=":";
+				TCHAR str5[5];
+				itoa(m,str5,10);
+				TCHAR str6[]="关机！";
+				strcat(str2,str3);
+				strcat(str2,str4);
+				strcat(str2,str5);
+				strcat(str2,str6);
+				MessageBox(hwnd,str2,TEXT("关机提示"),MB_OK);
+				
+				
+			break;
+
+	
+    }
+}
+
+void Main_OnClose(HWND hwnd)
+{
+    EndDialog(hwnd, 0);
+}
+```
+**效果：**
+>![程序效果](http://i3.tietuku.com/46ab6ebc4a918cf4.png)
+
+>**自制logo**：
+
+>![定时关机logo](http://i3.tietuku.com/6d15ac8c1383404c.png)

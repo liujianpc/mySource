@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+HiLink	.\javascript.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	.\javascript.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+appendRender	.\index.html	/^	function appendRender(data, tmplID, container, isWaterfall){  \/\/Ó¦ÓÃÄ£°å$/;"	f
+b:current_syntax	.\javascript.vim	/^let b:current_syntax = "javascript"$/;"	v
+b:javascript_fold	.\javascript.vim	/^let b:javascript_fold='true'$/;"	v
+data	.\b.cpp	/^int data;$/;"	m	struct:node	file:	access:public
+did_javascript_syn_inits	.\javascript.vim	/^    let did_javascript_syn_inits = 1$/;"	v
+fact	.\fact.c	/^int fact(int n)$/;"	f	signature:(int n)
+initbShare	.\index.html	/^	function initbShare(){$/;"	f
+main	.\a.cpp	/^int main()$/;"	f	signature:()
+main	.\a.cpp	/^void main()$/;"	f	signature:()
+main	.\b.cpp	/^int main()$/;"	f	signature:()
+main	.\buble.c	/^int main()$/;"	f
+main	.\bublesort.c	/^int main()$/;"	f
+main	.\compare.c	/^int main()$/;"	f
+main	.\fact.c	/^int main()$/;"	f
+main	.\test.c	/^int main()$/;"	f
+main	.\test1.c	/^int main()$/;"	f
+main_syntax	.\javascript.vim	/^  let main_syntax = 'javascript'$/;"	v
+next	.\b.cpp	/^node *next;$/;"	m	struct:node	file:	access:public
+node	.\b.cpp	/^struct node$/;"	s	file:
+node::data	.\b.cpp	/^int data;$/;"	m	struct:node	file:	access:public
+node::next	.\b.cpp	/^node *next;$/;"	m	struct:node	file:	access:public
+node::pre	.\b.cpp	/^node *pre;$/;"	m	struct:node	file:	access:public
+pre	.\b.cpp	/^node *pre;$/;"	m	struct:node	file:	access:public
+retriveRemoteData	.\index.html	/^	function retriveRemoteData(dataJSON, tmplID, interval, container, isWaterfall){	$/;"	f
+strcmp	.\compare.c	/^void strcmp(char*t,char*s)$/;"	f	signature:(char*t,char*s)
